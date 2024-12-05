@@ -1,0 +1,5 @@
+Manifest.toml
+input-data/*
+output/*.csv
+output/cop-timeseries/*
+output/demand-timeseries/*
