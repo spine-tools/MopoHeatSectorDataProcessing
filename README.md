@@ -48,7 +48,7 @@ and manually instantiating the dependencies
 
 The data processing scripts require quite a bit of input data,
 and including them within this GitHub repository is not really ideal.
-Thus, an example input data set has been archived in [Zenodo](LINK!),
+Thus, an example input data set has been archived in [Zenodo](https://doi.org/10.5281/zenodo.14280884),
 which needs to be extracted under the `input-data` folder for the scripts to run correctly.
 
 
