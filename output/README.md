@@ -34,6 +34,8 @@ Contains 8 different COP timeseries:
 - `G2WHP-floor` space heating using an ground-to-water heat pump assuming a low-temperature heat distribution system (e.g. hydronic floor heating).
 - `G2WHP-radiators` space heating using an ground-to-water heat pump assuming a medium-temperature heat distribution system (e.g. modern hydronic radiators).
 
+Produced by `cop_export.ipynb` with more details on how the data is reorganized from the raw [ArchetypeBuildingModel](https://github.com/vttresearch/ArchetypeBuildingModel) output.
+
 
 ## `demand-timeseries/*.csv`
 
@@ -56,11 +58,15 @@ This roughly corresponds to the approach used in the [Hotmaps project](https://w
 when projecting future heating/cooling demand scenarios, where average weather for
 2002-2012 was used.
 
+Produced by `demand_scaling.ipynb` with more details on how the demand timeseries are processed from the raw [ArchetypeBuildingModel](https://github.com/vttresearch/ArchetypeBuildingModel) output.
+
 
 ## `heat_storage_technology_params.csv`
 
 Parameters for select heat storage technologies based on the
 [Danish Energy Agency technology catalogues](https://ens.dk/en/our-services/technology-catalogues).
+
+Produced by `process_storage_data.ipynb` with more details on how the DEA data is mapped, aggregated, and processed into the desired technology parameters.
 
 
 ## `heating_technology_params.csv`
@@ -68,17 +74,37 @@ Parameters for select heat storage technologies based on the
 District heating system and distributed heating technology parameters based on the
 [Danish Energy Agency technology catalogues](https://ens.dk/en/our-services/technology-catalogues).
 
+Produced by `process_generation_data.ipynb` with more details on how the DEA data is mapped, aggregated, and processed into the desired technology parameters.
+
 
 ## `peak_to_yearly_demand_ratios_MW_GWh.csv`
 
-Maximum peak heating/cooling demand (MW) to yearly heating/cooling demand (GWh) ratios
-accross the modelled weather years, potentially intended to be used for estimating the
-peak capacities of heat-only boilers in district heating production across Europe.
-Work in progress.
+Maximum peak heating/cooling demand (MW) to yearly heating/cooling demand (GWh) ratios across the modelled weather years.
+Used for estimating the capacities of both distributed heating systems as well as heat-only boilers in district heating production across Europe.
+
+Produced by `demand_scaling.ipynb` with more details on how these are calculated based on the raw [ArchetypeBuildingModel](https://github.com/vttresearch/ArchetypeBuildingModel) output.
+
+
+## `scenario_estimated_existing_capacities_MW.csv`
+
+Estimated heating/cooling technology capacities in MW based on the [Hotmaps project results](https://gitlab.com/hotmaps?page=1) as well as the peak-to-yearly-demand ratios of the [ArchetypeBuildingModel](https://github.com/vttresearch/ArchetypeBuildingModel) output.
+Essentially just multiplies the yearly demand by the estimated peak demand.
+
+NOTE! The existing heating capacities of the heat pumps are pretty volatile, as the `Electricity` vs `ambient heat` ratios in the Hotmaps data is all over the place.
+For most cases this is hopefully ok, but for some rows the estimated COP reaches hundreds and thousands, which is unrealistic.
+Quirks of statistics, I suppose.
+
+Produced by `demand_scaling.ipynb` with more details on how the capacities are mapped and estimated.
+
 
 
 ## `scenario_total_yearly_demands_GWh.csv`
 
 Total yearly space heating/cooling and domestic hot water heating demands
 based on the [Hotmaps project results](https://gitlab.com/hotmaps?page=1).
-To be used 
+These are used to scale the heating/cooling demand profiles to match a desired yearly scenario demand.
+
+NOTE! While Norway and Switzerland are included, they don't have real scenario data in the Hotmaps results.
+Instead, their demands are based on neighbouring countries and scaled based on population.
+
+Produced by `demand_scaling.ipynb` with more details on how the Hotmaps data is extended, aggregated, and aggregated.
