@@ -68,7 +68,7 @@ The codebase and the output are licensed under the [MIT License](https://opensou
 see `LICENSE` for more information.
 
 The required input files all have slightly different licenses,
-see the README in the [Zenodo dataset](LINK!) for more information.
+see the README in the [Zenodo dataset](https://doi.org/10.5281/zenodo.14280884) for more information.
 
 
 ## Acknowledgements
