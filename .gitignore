@@ -1,5 +1,6 @@
 Manifest.toml
-input-data/*
+input-data/*/
+input-data/*.zip
 output/*.csv
 output/cop-timeseries/*
 output/demand-timeseries/*
