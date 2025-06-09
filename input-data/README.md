@@ -35,6 +35,12 @@ Unfortunately, the license isn't crystal clear, but it is clearly intended for p
 Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode).
 
 
+## `JRC-IDEES-2015_All_xlsx_UK`
+
+The old [JRC-IDEES 2015 dataset](https://data.jrc.ec.europa.eu/dataset/jrc-10110-10001).
+Licensing isn't crystal clear, but the cited [European Commission Reuse and Copyright Notice](https://data.jrc.ec.europa.eu/licence/com_reuse) permits reuse as long as the source is acknowledged.
+
+
 ## `JRC-IDEES-2021`
 
 [The JRC-IDEES 2021 dataset](https://joint-research-centre.ec.europa.eu/scientific-tools-databases/potencia-policy-oriented-tool-energy-and-climate-change-impact-assessment-0/jrc-idees_en).
