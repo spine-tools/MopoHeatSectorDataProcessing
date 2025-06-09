@@ -8,10 +8,14 @@ Data processing scripts for dealing with heat sector data required in the Mopo p
 1. `input-data/` contains the raw data sources used for the processing scripts.
 2. `output/` contains the processed output `.csv` files.
 3. `cop_export.ipynb` postprocesses and exports [ArchetypeBuildingModel](https://github.com/vttresearch/ArchetypeBuildingModel) heat pump COP timeseries for Mopo WP5.
-3. `examine_generation_data.ipynb` examines the generation technology data for the final processing.
-4. `examine_storage_data.ipynb` examines the storage technology data for the final processing.
-5. `process_generation_data.ipynb` processes the generation data for Mopo WP5.
-6. `process_storage_data.ipynb` processes the storage technology parameters for Mopo WP5.
+4. `demand_scaling.ipynb` postprocesses the [ArchetypeBuildingModel](https://github.com/vttresearch/ArchetypeBuildingModel) heating/cooling demand timeseries, as well as processess [Hotmaps](https://gitlab.com/hotmaps) heating/cooling demand scenario data.
+5. `demand_testing.ipynb` contains experiments and examination of the data underlying `demand_scaling.ipynb`.
+6. `examine_capacity_data.ipynb` examines the raw data available for heat-only capacity estimation for `process_capacity_data.ipynb`.
+7. `examine_generation_data.ipynb` examines the generation technology data for `process_generation_data.ipynb`.
+8. `examine_storage_data.ipynb` examines the storage technology data for `process_storage_data.ipynb`.
+9. `process_capacity_data.ipynb` processes and output estimated heat-only generation capacity data for Mopo WP5.
+10. `process_generation_data.ipynb` processes and outputs generation data for Mopo WP5.
+11. `process_storage_data.ipynb` processes and outputs storage technology parameters for Mopo WP5.
 
 
 ## Installation

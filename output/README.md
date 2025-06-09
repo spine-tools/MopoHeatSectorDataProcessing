@@ -88,7 +88,8 @@ Produced by `demand_scaling.ipynb` with more details on how these are calculated
 ## `scenario_estimated_existing_capacities_MW.csv`
 
 Estimated heating/cooling technology capacities in MW based on the [Hotmaps project results](https://gitlab.com/hotmaps?page=1) as well as the peak-to-yearly-demand ratios of the [ArchetypeBuildingModel](https://github.com/vttresearch/ArchetypeBuildingModel) output.
-Essentially just multiplies the yearly demand by the estimated peak demand.
+Essentially just multiplies the yearly demand by the estimated peak demand for distributed heating capacities.
+District heating heat-only boiler capacities estimated based on fuel distributions in the [JRC-IDEES](http://data.europa.eu/89h/82322924-506a-4c9a-8532-2bdd30d69bf5) 2015 (for UK only) and 2021 datasets.
 
 NOTE! The existing heating capacities of the heat pumps are pretty volatile, as the `Electricity` vs `ambient heat` ratios in the Hotmaps data is all over the place.
 For most cases this is hopefully ok, but for some rows the estimated COP reaches hundreds and thousands, which is unrealistic.
