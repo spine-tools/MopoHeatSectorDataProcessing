@@ -95,7 +95,7 @@ NOTE! The existing heating capacities of the heat pumps are pretty volatile, as 
 For most cases this is hopefully ok, but for some rows the estimated COP reaches hundreds and thousands, which is unrealistic.
 Quirks of statistics, I suppose.
 
-Produced by `demand_scaling.ipynb` with more details on how the capacities are mapped and estimated.
+Produced by `process_capacity_data.ipynb` with more details on how the capacities are mapped and estimated.
 
 
 
@@ -109,3 +109,17 @@ NOTE! While Norway and Switzerland are included, they don't have real scenario d
 Instead, their demands are based on neighbouring countries and scaled based on population.
 
 Produced by `demand_scaling.ipynb` with more details on how the Hotmaps data is extended, aggregated, and aggregated.
+
+
+## `simplified_capacities_with_decommissioning_MW.csv`
+
+Further processed simplified existing capacities from `scenario_estimated_existing_capacities_MW` for Mopo WP5.
+Unlike the aforementioned file,
+the future capacities here are not based on the [Hotmaps project results](https://gitlab.com/hotmaps?page=1) except for the first year.
+Instead, the capacities for the remaining years are estimated based on approximate decommissioning rates calculated from the `lifetime_y` parameter in the `heating_technology_params.csv`.
+
+Also note that these capacities are totals over the `building_category` and heating/DHW `demand`.
+`demand_category` and cooling `demand` are still separate due to different `technology` serving them, although `cooling` demand is omitted due to unclear lifetime parameters.
+The `scenario` is currently selected as `current`.
+
+Produced by `process_capacity_data.ipynb`.
