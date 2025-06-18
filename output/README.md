@@ -119,7 +119,7 @@ the future capacities here are not based on the [Hotmaps project results](https:
 Instead, the capacities for the remaining years are estimated based on approximate decommissioning rates calculated from the `lifetime_y` parameter in the `heating_technology_params.csv`.
 
 Also note that these capacities are totals over the `building_category` and heating/DHW `demand`.
-`demand_category` and cooling `demand` are still separate due to different `technology` serving them, although `cooling` demand is omitted due to unclear lifetime parameters.
+`demand_category` and cooling `demand` are still separate due to different `technology` serving them.
 The `scenario` is currently selected as `current`.
 
 Produced by `process_capacity_data.ipynb`.
