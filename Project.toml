@@ -1,7 +1,7 @@
 name = "MopoHeatSectorDataProcessing"
 uuid = "6b6a5c3d-121a-4cf1-8717-52225c3303cf"
 authors = ["Tasqu <topi.rasku@vtt.fi>"]
-version = "0.5.0"
+version = "0.5.1"
 
 [deps]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
