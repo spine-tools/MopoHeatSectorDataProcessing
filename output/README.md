@@ -1,5 +1,7 @@
 # MopoHeatSectorDataProcessing/output
 
+Output produced by [MopoHeatSectorDataProcessing](https://github.com/spine-tools/MopoHeatSectorDataProcessing).
+
 The processed output files are not included in this repository,
 as the timeseries especially take up quite some space.
 In order to recreate them, simply run the Jupyter notebooks handling the data processing.

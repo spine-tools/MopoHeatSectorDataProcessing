@@ -2,6 +2,26 @@
 
 Data processing scripts for dealing with heat sector data required in the Mopo project.
 
+This package is part of the [EU project Mopo](https://www.tools-for-energy-system-modelling.org/) building stock data processing,
+and is the last step of three:
+
+1. [_AmBIENCe2ABM_](https://github.com/spine-tools/AmBIENCe2ABM) handles EU-wide building stock input data processing for [_ArchetypeBuildingModel.jl_](https://github.com/vttresearch/ArchetypeBuildingModel) _(ABM.jl)_.
+2. [_Mopo AmBIENCe2ABM Demo_](https://doi.org/10.5281/zenodo.8238141) contains the [_Spine Toolbox_](https://github.com/spine-tools/Spine-Toolbox) workflow using _ABM.jl_ for calculating EU-wide heating and cooling timeseries.
+3. _MopoHeatSectorDataProcessing_ post-processes the output from step 2 into input data suitable for the Mopo project case studies.
+
+The geographical data coverage is illustrated below:
+![geoscope](geoscope.png)
+
+
+## Documentation
+
+_MopoHeatSectorDataProcessing_ has been documented mainly through `README.md` files including this one.
+Each sub-folder has its own `README.md` describing its contents in more detail.
+This was done to make browsing the contents of this repository in GitHub as convenient and self-explanatory as possible.
+
+Eventually, the _D2.2 deliverable_ will also be published on the [Mopo project website](https://www.tools-for-energy-system-modelling.org/resources/),
+potentially better explaining the overall data processing workflow.
+
 
 ## Key contents
 

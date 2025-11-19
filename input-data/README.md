@@ -3,6 +3,12 @@
 Input data required by
 [MopoHeatSectorDataProcessing](https://github.com/spine-tools/MopoHeatSectorDataProcessing).
 
+The raw input data are not included in this GitHub repository,
+as they take up quite a bit of space.
+The master README contains instructions for downloading the full set of inputs
+used for the [Mopo AmBIENCE2ABM Demo](https://zenodo.org/records/10518294)
+post-processing for the Mopo project case studies.
+
 Please refer to the following subsections for more detailed information on the exact
 data sources and their licenses.
 
