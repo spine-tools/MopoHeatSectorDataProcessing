@@ -110,7 +110,7 @@ These are used to scale the heating/cooling demand profiles to match a desired y
 NOTE! While Norway and Switzerland are included, they don't have real scenario data in the Hotmaps results.
 Instead, their demands are based on neighbouring countries and scaled based on population.
 
-Produced by `demand_scaling.ipynb` with more details on how the Hotmaps data is extended, aggregated, and aggregated.
+Produced by `demand_scaling.ipynb` with more details on how the Hotmaps data is extended and aggregated.
 
 
 ## `simplified_capacities_with_decommissioning_MW.csv`

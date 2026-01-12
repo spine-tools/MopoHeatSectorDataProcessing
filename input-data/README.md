@@ -91,3 +91,14 @@ dataset.
 Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode).
 
 Used as a comparison for the raw [ArchetypeBuildingModel](https://github.com/vttresearch/ArchetypeBuildingModel) heating profiles, but not for the final data processing itself.
+
+
+## `ic1-res-nonres-shares.csv`
+
+A supplementary file dividing Belgium and the Netherlands further into IC1 zones.
+Calculating the weights of the zones was done based on the
+[gfa_nonres_curr_density](https://gitlab.com/hotmaps/buildings/gfa_nonres_curr_density)
+[gfa_res_curr_density](https://gitlab.com/hotmaps/buildings/gfa_res_curr_density)
+repositories.
+The actual calculations were handled in
+[a separate repository](https://github.com/spine-tools/wp2-industrial-case-building-stock-aggregation).
