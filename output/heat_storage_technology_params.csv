@@ -1,0 +1,13 @@
+technology,year,CAPEX_energy_MEUR_GWh,FOM_energy_EUR_GWh_y,VOM_EUR_MWh,charge_efficiency_pu,discharge_efficiency_pu,energy_to_power_ratio_h,storage_losses_pu_day,lifetime_y,currency,metadata
+DH-LT-hot-water-tank,2020,3.6554,10603.2631,0.0,1.0,1.0,60.3448,0.0019,40.0,2025 EUR,"Technology data for energy storage - October 2018 - Updated April 2024, Danish Energy Agency, 2024"
+DH-LT-hot-water-tank,2030,3.6554,10603.2631,0.0,1.0,1.0,60.3448,0.0019,40.0,2025 EUR,"Technology data for energy storage - October 2018 - Updated April 2024, Danish Energy Agency, 2024"
+DH-LT-hot-water-tank,2040,3.6554,10603.2631,0.0,1.0,1.0,60.3448,0.0019,40.0,2025 EUR,"Technology data for energy storage - October 2018 - Updated April 2024, Danish Energy Agency, 2024"
+DH-LT-hot-water-tank,2050,3.6554,10603.2631,0.0,1.0,1.0,60.3448,0.0019,40.0,2025 EUR,"Technology data for energy storage - October 2018 - Updated April 2024, Danish Energy Agency, 2024"
+distributed-hot-water-tanks,2020,505.5044,2.05489595018e7,0.0,1.0,1.0,0.15,0.3991,30.0,2025 EUR,"Technology data for energy storage - October 2018 - Updated April 2024, Danish Energy Agency, 2024"
+distributed-hot-water-tanks,2030,505.5044,2.05489595018e7,0.0,1.0,1.0,0.15,0.3991,30.0,2025 EUR,"Technology data for energy storage - October 2018 - Updated April 2024, Danish Energy Agency, 2024"
+distributed-hot-water-tanks,2040,505.5044,2.05489595018e7,0.0,1.0,1.0,0.15,0.3991,30.0,2025 EUR,"Technology data for energy storage - October 2018 - Updated April 2024, Danish Energy Agency, 2024"
+distributed-hot-water-tanks,2050,505.5044,2.05489595018e7,0.0,1.0,1.0,0.15,0.3991,30.0,2025 EUR,"Technology data for energy storage - October 2018 - Updated April 2024, Danish Energy Agency, 2024"
+DH-pit-thermal-storage,2020,0.7146,3698.8127,0.0,1.0,1.0,150.0,0.0015,20.0,2025 EUR,"Technology data for energy storage - October 2018 - Updated April 2024, Danish Energy Agency, 2024"
+DH-pit-thermal-storage,2030,0.6713,3698.8127,0.0,1.0,1.0,150.0,0.0015,25.0,2025 EUR,"Technology data for energy storage - October 2018 - Updated April 2024, Danish Energy Agency, 2024"
+DH-pit-thermal-storage,2040,0.6446,3698.8127,0.0,1.0,1.0,150.0,0.0015,25.0,2025 EUR,"Technology data for energy storage - October 2018 - Updated April 2024, Danish Energy Agency, 2024"
+DH-pit-thermal-storage,2050,0.5754,3698.8127,0.0,1.0,1.0,150.0,0.0015,25.0,2025 EUR,"Technology data for energy storage - October 2018 - Updated April 2024, Danish Energy Agency, 2024"
