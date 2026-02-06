@@ -5,5 +5,3 @@ output/*.csv
 output/cop-timeseries/*
 output/demand-timeseries/*
 *.ser
-!output/heat_storage_params.csv
-!output/heat_technology_params.csv

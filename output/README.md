@@ -64,7 +64,7 @@ when projecting future heating/cooling demand scenarios, where average weather f
 Produced by `demand_scaling.ipynb` with more details on how the demand timeseries are processed from the raw [ArchetypeBuildingModel](https://github.com/vttresearch/ArchetypeBuildingModel) output.
 
 
-## `heat_storage_technology_params.csv`
+## `heat_storage_params.csv`
 
 Parameters for select heat storage technologies based on the
 [Danish Energy Agency technology catalogues](https://ens.dk/en/our-services/technology-catalogues).
@@ -72,7 +72,7 @@ Parameters for select heat storage technologies based on the
 Produced by `process_storage_data.ipynb` with more details on how the DEA data is mapped, aggregated, and processed into the desired technology parameters.
 
 
-## `heating_technology_params.csv`
+## `heat_technology_params.csv`
 
 District heating system and distributed heating technology parameters based on the
 [Danish Energy Agency technology catalogues](https://ens.dk/en/our-services/technology-catalogues).
