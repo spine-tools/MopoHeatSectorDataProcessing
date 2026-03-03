@@ -82,6 +82,7 @@ The processed output files are not included in this repository,
 as the timeseries especially take up quite some space.
 
 In order to recreate them, simply run the Jupyter notebooks handling the data processing.
+The `demand_scaling.ipynb` should be run first, as it produces some output used by e.g. `process_capacity_data.ipynb` later.
 However, note that you will need to download the required input data
 separately as described above.
 
