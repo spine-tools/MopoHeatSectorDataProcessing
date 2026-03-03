@@ -1,4 +1,6 @@
 # MopoHeatSectorDataProcessing
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18505234.svg)](https://doi.org/10.5281/zenodo.18505234)
+
 
 Data processing scripts for dealing with heat sector data required in the Mopo project.
 
