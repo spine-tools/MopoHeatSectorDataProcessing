@@ -4,6 +4,9 @@
 
 Data processing scripts for dealing with heat sector data required in the Mopo project.
 
+>[!IMPORTANT]
+>With the Mopo project ending in 2026, this repository is no longer actively maintained.
+
 This package is part of the [EU project Mopo](https://www.tools-for-energy-system-modelling.org/) building stock data processing,
 and is the last step of three:
 
